@@ -1,0 +1,26 @@
+### add OPENAI key in Linux
+
+export OPENAI_API_KEY="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"
+
+
+### add OPENAI key in Windows
+
+set OPENAI_API_KEY=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
+
+
+
+pip install -r requiremnets.txt
+pip install langchain-experimental 
+
+## to start the application 
+
+streamlit run blog_pdf_bot.py 
+
+
+### Sample questions for attached DB
+
+
+How many tables in the database
+What are the names of the tables
+What is the content of table user
+Which student has the best essay in table
